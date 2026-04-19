@@ -2,8 +2,25 @@
   "name": "pi-plan",
   "version": "1.0.0",
   "description": "Simple plan mode extension for pi",
-  "keywords": ["pi-package"],
+  "keywords": [
+    "pi-package"
+  ],
   "pi": {
-    "extensions": ["./src/index.ts"]
-  }
+    "extensions": [
+      "./src/index.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@mariozechner/pi-coding-agent": "*"
+  },
+  "peerDependenciesMeta": {
+    "@mariozechner/pi-coding-agent": {
+      "optional": true
+    }
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE.md"
+  ]
 }

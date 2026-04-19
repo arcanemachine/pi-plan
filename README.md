@@ -2,6 +2,8 @@
 
 A simple pi extension that adds plan mode for read-only analysis and planning.
 
+This extension is like a simplified version of [pi-mode](https://github.com/arcanemachine/pi-plan) that only has a single mode: `plan`
+
 ## Features
 
 - **Plan Mode** - Read-only analysis and planning phase
@@ -31,6 +33,8 @@ git clone https://github.com/arcanemachine/pi-plan.git
 cd pi-plan
 pi install /path/to/pi-plan
 ```
+
+No local `npm install` is required for normal usage.
 
 Or use a symlink for development:
 
